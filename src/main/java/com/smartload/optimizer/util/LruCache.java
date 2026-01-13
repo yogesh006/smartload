@@ -3,9 +3,7 @@ package com.smartload.optimizer.util;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/**
- * Simple thread-unsafe LRU cache. Stateless service so this is fine.
- */
+
 public class LruCache<K, V> extends LinkedHashMap<K, V> {
     private final int maxSize;
 

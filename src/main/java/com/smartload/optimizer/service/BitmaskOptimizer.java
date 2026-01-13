@@ -6,11 +6,6 @@ import com.smartload.optimizer.model.Truck;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Optimizer using DP over bitmasks.
- * - Filters input to a compatible cohort (same O/D & hazmat homogeneity).
- * - Evaluates subsets while pruning on weight/volume.
- */
 public class BitmaskOptimizer {
 
     public static class Result {
